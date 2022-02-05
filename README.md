@@ -10,7 +10,7 @@ NAME = 'Jelle Veldman'
 
 In this notebook I develop an automated way to search for linear relationships between statistics about municipalities in the Netherlands and the vote shares of Dutch political parties. The first chapter builds a SQLite database and populates it with cleaned data from the CBS and the Election Council. Based on this data, I run scripts that iterate over all the possible combinations of regressions and political parties. From over 2000 linear regressions, 7 met all the criteria for a linear regression model to be valid, of which only five have a meaningful coefficient. Non-linearity and non-normality where the biggest causes for violating the linear model assumptions, together with the incapacity of the independent variable to explain the variation in the dependent variable. From the five regressions that met the criteria, the strongest positive relationship is between the percentage of people that get governmental support before reaching the retirement age and the vote share for the Socialist party. This suggests that there is evidence that the higher the share of people with governmental support before reaching the retirement age in a municipality, the more people vote, on average, on the Socialist Party. Running the same analysis on the data per neighbourhood instead of per municipality might significantly increase the amount of successful regressions as the data will be less divers and more likely to contain a linear relationship. 
 
-# Research Question? 
+# Research Question
 
 ***Are there solid linear relationships between municipality statistics and the vote shares of political parties?***
 
