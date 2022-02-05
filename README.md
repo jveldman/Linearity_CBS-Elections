@@ -2,10 +2,6 @@
 NAME = 'Jelle Veldman'
 ```
 
-| Name | SNR | ANR |
-|---|---|---|
-| Jelle Veldman | 2011313 | U669221 |
-
 # Linear relationships in municipality statistics: 
 ## *An automated model of investigating the linear relationships between municipality statistics and the vote share of political parties.*
 
@@ -667,7 +663,7 @@ def get_alloptions():
 
 `get_alloptions()` will be used in the next function, `regress_all`. This function firstly removes the old results file and then loads all possible statistics and parties. The statistics and parties are then merged in a list with all the possible combinations of statistics and parties. The function loops through this list and gets all statistical values and scores of the best-scoring regression per combination. In case a value has too few rows, an error is raised, and the row will be filled with zeroes. 
 
-**WARNING FOR WHEN GRADING**: 
+**WARNING:**: 
 
 *The code below is very slow and takes about an hour to complete. If you want to check the outcome of the script underneath quickly, then please consult `final_values.csv`*. 
 
