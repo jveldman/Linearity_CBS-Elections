@@ -913,7 +913,7 @@ sns.countplot(x = 'Type', data = df).set(title = 'Types of dependent variables')
 
 
     
-![png](output_30_1.png)
+![png](Figures/output_30_1.png)
     
 
 
@@ -935,7 +935,7 @@ sns.countplot(x = 'Model_score', data = df).set(title = 'Score of Regressions')
 
 
     
-![png](output_32_1.png)
+![png](Figures/output_32_1.png)
     
 
 
@@ -968,7 +968,7 @@ requirement_plot(df, 'pval_coeff')
 
 
     
-![png](output_34_0.png)
+![png](Figures/output_34_0.png)
     
 
 
@@ -983,7 +983,7 @@ requirement_plot(df, 'Coeff', False)
 
 
     
-![png](output_36_0.png)
+![png](Figures/output_36_0.png)
     
 
 
@@ -998,7 +998,7 @@ requirement_plot(df, 'r2')
 
 
     
-![png](output_38_0.png)
+![png](Figures/output_38_0.png)
     
 
 
@@ -1013,7 +1013,7 @@ requirement_plot(df, 'Linearity', False)
 
 
     
-![png](output_40_0.png)
+![png](Figures/output_40_0.png)
     
 
 
@@ -1030,7 +1030,7 @@ requirement_plot(df, 'Lilliefors')
 
 
     
-![png](output_42_0.png)
+![png](Figures/output_42_0.png)
     
 
 
@@ -1045,7 +1045,7 @@ requirement_plot(df, 'Heteroscedasticity')
 
 
     
-![png](output_44_0.png)
+![png](Figures/output_44_0.png)
     
 
 
@@ -1334,7 +1334,7 @@ plot_best('KLFinancieleDienstenOnroerendGoed_169', 'D66', 'votes_sqrt')
 
 
     
-![png](output_50_0.png)
+![png](Figures/output_50_0.png)
     
 
 
@@ -1347,7 +1347,7 @@ plot_best('AantalZiekenhuizenBinnen20Km_213', 'CDA','votes_log')
 
 
     
-![png](output_52_0.png)
+![png](Figures/output_52_0.png)
     
 
 
@@ -1360,7 +1360,7 @@ plot_best('AantalBioscopenBinnen10Km_228', 'CDA','votes_log')
 
 
     
-![png](output_54_0.png)
+![png](Figures/output_54_0.png)
     
 
 
@@ -1387,7 +1387,7 @@ plot_best('AfstandTotOpenbaarGroen_231', 'VijftigPlus','votes_log')
 
 
     
-![png](output_56_1.png)
+![png](Figures/output_56_1.png)
     
 
 
@@ -1404,7 +1404,7 @@ plot_best('BijstandTotDeAOWLeeftijd_158', 'SP','votes_sqrt')
 
 
     
-![png](output_58_1.png)
+![png](Figures/output_58_1.png)
     
 
 
